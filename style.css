@@ -46,7 +46,7 @@ a {
 
 }
 
-.butty {
+.btn {
     background-color: rgb(255, 121, 22);
     color: white;
     border: none;
@@ -303,24 +303,30 @@ header {
 .security-section{
     background-color: #011648;
     padding-top: 100px;
-    padding-bottom: 100px;
+    display: flex;
     position: relative;
 
     
 }
 .security-section .main-title{
-    text-align: center;
     color: #fff;
-    max-width: 800px;
-    margin: 0 auto;
 }
 .security-section p{
     color: #7e92c1;
+ 
+}
+.main-title{
+    text-align: center; 
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+.main-title h3{
+    font-size: 51px;
+}
+.main-title p{
     font-size: 18px;
     padding: 1.6rem 0 0;
-}
-.security-section .main-title h3{
-    font-size: 51px;
 }
 
 .security-section img.line{
@@ -329,23 +335,81 @@ header {
 }
 .diagnostic{
     display: flex;
-    background-color: #fff;
+    background: linear-gradient(180deg,#FFFFFF 0%,#F2F6FF 100%);
     position: relative;
     margin-top: 5rem;
     padding: 5rem;
+    border-radius: 20px;
+    margin-bottom: -250px;
 }
 .diagnostic h4{
     color: #0b49df;
-    padding: 1rem;
+    padding-top: 1rem;
     
 }
+
 .diagnostic h3{
     color:#4f4f4f;
     /* padding: 1rem; */
-    font-size: 18px;
+    font-size: 40px;
+    padding-top: 2rem;
+    font-weight: 400px;
+    
+}
+.security-tasks li{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 .security-tasks{
     list-style-type: none;
     padding: 1rem;
+}
+
+.diagnostic .left-side{
+    flex:0 0 60%;
+    max-width: 60%;
+    padding-right: 3rem;
+}
+.diagnostic .right-side {
+    flex: 0 0 40%;
+    max-width: 40%;
+   
+}
+img.data{
+    width:250px;
+    margin-top: -130px;
+}
+.service-section{
+    padding: 350px 0 100px;
+}
+.service-lists{
+    display: flex;
+    flex-wrap: wrap;
+}
+.service-lists .item{
+    flex:0 0 33.33%;
+    max-width: 33.33%;
+    padding: 40px;
+    text-align: center;
+    border-bottom: 2px solid transparent;
+    transition: all 0.3s ease-in-out;
+    margin-bottom: 30px;
+
+}
+.service-lists .item:hover {
+    box-shadow: 2px 2px 50px 0 rgba(33.00000000000001, 74, 97, .08);
+    border-color: #0b49df;
+}
+.service-lists .item img{
+    width: 60px;
+    margin-bottom: 30px;
+}
+.service-lists .item .title{
+    font-size: 24px;
+    padding-bottom: 20px;
+
+}
+.service-lists .item p{
+    font-size: 20px;
 }
