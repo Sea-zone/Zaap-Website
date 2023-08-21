@@ -2,7 +2,7 @@
 
 body {
 
-    font-family: 'Montserrat', sans-serif;
+  
     font-family: 'Questrial', sans-serif;
 }
 
@@ -388,8 +388,8 @@ img.data{
     flex-wrap: wrap;
 }
 .service-lists .item{
-    flex:0 0 33.33%;
-    max-width: 33.33%;
+    flex:33%;
+    max-width: auto;
     padding: 40px;
     text-align: center;
     border-bottom: 2px solid transparent;
@@ -412,4 +412,59 @@ img.data{
 }
 .service-lists .item p{
     font-size: 20px;
+}
+.star {
+    width: 330px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    box-shadow: 0 4px 8px #d3d3d3;
+    border-radius: 20px;
+    
+}
+.joinus{
+    padding-top: 10rem;
+    padding-bottom: 40px;
+    background-color: #F6F7FC;
+}
+.cybercrime{
+    position: relative;
+}
+.crime h3 {
+    color: #4f4f4f;
+    /* padding: 1rem; */
+    font-size: 40px;
+    padding-top: 2rem;
+    font-weight: 400px;
+    text-align: center;
+    padding-left: 3rem;
+    margin-top: 30px;
+
+}
+.arrow{
+    position: absolute;
+    top: 10px;
+    left:5px;
+}
+/* .store {
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 30px;
+} */
+
+.software{
+    text-align: center;
+    padding-top: 30px;
+    
+}
+.software img{
+    margin-top: 30px;
+}
+.mobile img{
+    position: absolute;
+    width: 140px;
+    right: 0;
+    bottom: 0;
 }
