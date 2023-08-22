@@ -452,6 +452,29 @@ img.data {
   right: 0;
   bottom: 0;
 }
+.usersinfo {
+  padding-top: 75px;
+  padding-bottom: 60px;
+}
+.scroll {
+  font-size: 50px;
+}
+.hello {
+  font-size: 50px;
+}
+.hello > p {
+  font-size: 20px;
+  color: #4f4f4f;
+  font-weight: 100;
+}
+.naap {
+  display: flex;
+  justify-content: space-around;
+}
+
+.incident {
+  display: grid;
+}
 
 /* Pricing Css */
 .pricingsection {
